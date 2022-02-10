@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import "./App.css";
 
-export const URL = "https://landmarksapp.herokuapp.com";
+export const URL = "http://localhost:5000";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
